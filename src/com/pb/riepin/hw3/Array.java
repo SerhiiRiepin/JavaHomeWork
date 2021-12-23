@@ -20,8 +20,8 @@ public class Array {
         }
         System.out.println("Сумма элеентов массива равна " + sum);
         System.out.println("Количество положительных элеентов массива равно " + kol);
-        for (int i = 0; i < mas.length; i++) {
-            System.out.println(mas[i]);
+        for (int ma : mas) {
+            System.out.println(ma);
         }
         for (int i =0; i < (mas.length - 1); i++) {
             for (int j = 0; j < (mas.length - 1); j++) {
@@ -33,8 +33,8 @@ public class Array {
             }
         }
         System.out.println("Отсортированный массив");
-        for (int i = 0; i < mas.length; i++) {
-            System.out.println(mas[i]);
+        for (int ma : mas) {
+            System.out.println(ma);
         }
     }
 }
